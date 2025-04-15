@@ -9,13 +9,13 @@ pipeline {
         IMAGE_TAG = 'latest'
         RESOURCE_GROUP = 'rg-aks'
         AKS_CLUSTER = 'aksclusterfordotnetviajenkins'
-        TF_WORKING_DIR = '"C:\\Users\\hp\\Downloads\\terraform_1.11.3_windows_386\\terraform.exe"'
+        TERRAFORM_PATH = '"C:\\Users\\hp\\Downloads\\terraform_1.11.3_windows_386\\terraform.exe"'
     }
 
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: ''
+                git branch: 'main', url: 'https://github.com/somay007/aksjenkins.git'
             }
         }
 
