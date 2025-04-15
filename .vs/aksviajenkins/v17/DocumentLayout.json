@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\Desktop\\Cap_training\\Phase_3\\Azure_secretkey_jenkins\\aksviajenkins\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA69BAC-B492-426D-A5EA-FB3EE807235F}|aksviajenkins\\aksviajenkins.csproj|c:\\users\\hp\\desktop\\cap_training\\phase_3\\azure_secretkey_jenkins\\aksviajenkins\\aksviajenkins\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEA69BAC-B492-426D-A5EA-FB3EE807235F}|aksviajenkins\\aksviajenkins.csproj|solutionrelative:aksviajenkins\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA69BAC-B492-426D-A5EA-FB3EE807235F}|aksviajenkins\\aksviajenkins.csproj|c:\\users\\hp\\desktop\\cap_training\\phase_3\\azure_secretkey_jenkins\\aksviajenkins\\aksviajenkins\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{EEA69BAC-B492-426D-A5EA-FB3EE807235F}|aksviajenkins\\aksviajenkins.csproj|solutionrelative:aksviajenkins\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Cap_training\\Phase_3\\Azure_secretkey_jenkins\\aksviajenkins\\aksviajenkins\\Dockerfile",
+              "RelativeDocumentMoniker": "aksviajenkins\\Dockerfile",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\Cap_training\\Phase_3\\Azure_secretkey_jenkins\\aksviajenkins\\aksviajenkins\\Dockerfile",
+              "RelativeToolTip": "aksviajenkins\\Dockerfile",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-15T07:03:30.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Cap_training\\Phase_3\\Azure_secretkey_jenkins\\aksviajenkins\\aksviajenkins\\Program.cs",
+              "RelativeDocumentMoniker": "aksviajenkins\\Program.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\Cap_training\\Phase_3\\Azure_secretkey_jenkins\\aksviajenkins\\aksviajenkins\\Program.cs",
+              "RelativeToolTip": "aksviajenkins\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T06:05:45.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
