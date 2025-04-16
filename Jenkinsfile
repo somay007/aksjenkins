@@ -32,7 +32,7 @@ pipeline {
                     bat '"%TERRAFORM_PATH%" -chdir=terraform init '
           }
            }
-        stage('
+        
     }
       stage('Terraform Plan & Apply') {
            steps {
