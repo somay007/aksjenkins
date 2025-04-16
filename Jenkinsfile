@@ -19,11 +19,6 @@ pipeline {
             }
         }
 
-        stage('Build .NET App') {
-            steps {
-                bat 'dotnet publish aksviajenkins/aksviajenkins.csproj -c Release -o out'
-            }
-        }
 
         stage('Build Docker Image') {
             steps {
