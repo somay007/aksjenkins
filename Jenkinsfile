@@ -32,12 +32,14 @@ pipeline {
                     bat '"%TERRAFORM_PATH%" -chdir=terraform init '
           }
            }
+        stage('
     }
       stage('Terraform Plan & Apply') {
            steps {
                 withCredentials([azureServicePrincipal(credentialsId: AZURE_CREDENTIALS_ID)]) {
                      bat '"%TERRAFORM_PATH%" -chdir=terraform plan -out=tfplan'
-                     bat "az role assignment create --assignee 2e9e6ee3-d145-4ad6-afd8-5f95f2dc68cf --role "User Access Administrator" --scope /subscriptions/2e35691f-5103-4cad-a61c-dbc64c14af55"
+                    bat 'az role assignment create --assignee 2e9e6ee3-d145-4ad6-afd8-5f95f2dc68cf --role "User Access Administrator" --scope /subscriptions/2e35691f-5103-4cad-a61c-dbc64c14af55'
+
                      bat '"%TERRAFORM_PATH%" -chdir=terraform apply -auto-approve tfplan'
                 }
            }
