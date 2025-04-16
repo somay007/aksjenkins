@@ -59,7 +59,7 @@ resource "azurerm_role_assignment" "acr_attach" {
 
 //Outputs
 output "resource_group_name" {
-  value = azurerm_resource_group.rg-aks.name
+  value = azurerm_resource_group.rgasp.name
 }
 
 output "acr_login_server" {
