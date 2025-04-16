@@ -16,7 +16,7 @@ COPY ["aksviajenkins.csproj","./"]
 RUN dotnet restore "aksviajenkins.csproj"
 COPY . .
 WORKDIR "src/."
-RUN dotnet build "./aksviajenkins.csproj" -c $BUILD_CONFIGURATION -o /app/build
+RUN dotnet build "./aksviajenkins/aksviajenkins.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 # This stage is used to publish the service project to be copied to the final stage
 FROM build AS publish
